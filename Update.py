@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import sheet_specific_transforms as transform
+import sheet_specific_transformations as transform
 
 custom_transform_map = {
         "A3 - A12": transform.A3_A12_custom,
